@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Get an estimate</title>
+  </head>
+
+
+  <body>
+
+    <div class="container"> 
+      <div class="text-container">
+        <h1>Fill out with your information to get an estimate</h1>
+        <form id="addForm">
+          <label for="num1">Number of people: </label>
+          <input type="text" id="num1" name="num1" placeholder="Type a number here"><br>
+          <label for="num2">Number of servings: </label>
+          <input type="text" id="num2" name="num2" placeholder="Type a number here"><br>
+          <input type="submit" value="Get your estimate">
+        </form>
+        <p>Estimated price: <span id="result">---</span></p>
+      </div>
+
+      <div class="contact-container">
+        <h1>Contact us!</h1>
+        <h2>Our hours are:</h2>
+
+        <table class="hours">
+          <tr>
+            <td class="days">Monday to Friday</td>
+            <td class="time">9 to 5</td>
+          </tr>
+          <tr>
+            <td class="days">Weekends</td>
+            <td class="time">Closed</td>
+          </tr>
+        </table>  
+
+        <input type="button" value="Call Now!" id="callbutton">
+      </div>
+
+    </div>
+
+    <script src="main.js"></script>
+
+  </body>
+</html> 
